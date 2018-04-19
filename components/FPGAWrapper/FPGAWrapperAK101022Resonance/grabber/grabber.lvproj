@@ -124,7 +124,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/build/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A788F6AC-3124-452A-963A-5472E6B67FA0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BE996FEE-BFEE-478D-99FB-8A242F487D2B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/grabber/grabber.vi</Property>
@@ -154,7 +154,11 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/grabber/grabber stim laser control panel.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/grabber/grabber essentials panel.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">Uni Zürich</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Grabber</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
